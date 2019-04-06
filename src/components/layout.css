@@ -620,3 +620,22 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}
+
+.event {
+  margin-bottom: 16px;
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}
