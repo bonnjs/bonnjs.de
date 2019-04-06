@@ -16,6 +16,14 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
+      <ul className="nav">
+        <li>
+          <a href="#about-us">About Us</a>
+        </li>
+        <li>
+          <a href="#events">Events</a>
+        </li>
+      </ul>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"

@@ -3,10 +3,14 @@ import { Link } from "gatsby"
 
 const Footer = () => (
   <footer>
-    <Link to="/imprint">Imprint</Link>{" "}
-    <Link to="/privacy-policy">Privacy Policy</Link>
-    <br />© {new Date().getFullYear()}, Built with{" "}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <div className="links">
+      <Link to="/imprint">Imprint</Link>{" "}
+      <Link to="/privacy-policy">Privacy Policy</Link>
+    </div>
+    <div className="copyright">
+      © {new Date().getFullYear()}, Built with{" "}
+      <a href="https://www.gatsbyjs.org">Gatsby</a>
+    </div>
   </footer>
 )
 
